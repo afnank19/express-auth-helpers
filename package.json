@@ -1,0 +1,21 @@
+{
+  "name": "@afnank19/express-auth-helper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "auth",
+    "jwts"
+  ],
+  "author": "Afnan Khalid",
+  "license": "MIT",
+  "description": "Helper functions for rolling your own auth with bcrypt, jwts and expressjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
